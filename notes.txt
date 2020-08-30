@@ -33,3 +33,9 @@ ng add @angular/material
 ng g c components/template/header
 ng g c components/template/footer
 ng g c views/home
+
+:::Git
+git init
+git remote add origin git@github.com:renatoais/Angular.git
+git push
+git pull
