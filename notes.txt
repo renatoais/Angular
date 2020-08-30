@@ -1,0 +1,35 @@
+:::Abrir o VScode
+code . 
+
+:::Subir o server o Json
+npm init -y
+npm start
+http://localhost:3001
+:::
+
+:::Instalar as dependencias do angular 
+npm i -g @angular/cli
+
+:::Criar um projeto
+ng new frontend
+(--minimal elimina arquivos desnecessarios)
+
+:::start projeto e compila 
+npm start
+
+::::Separar os arquivos html e css 
+alterar dentro do arquivo angular JS que contem configurações do projeto
+"inlineTemplate": false,
+    "inlineStyle": false,
+
+:::;arquivo main.ts
+Carrega o modulo principal 
+
+
+:::adicionar biblioteca angular material
+ng add @angular/material
+
+:::criar componentes como header
+ng g c components/template/header
+ng g c components/template/footer
+ng g c views/home
