@@ -42,3 +42,10 @@ git pull
 
 :::Criar Routing Module 
 ng generate module app-routing --flat --module=app
+
+:::Gerar SSH
+Gera a Chave 
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+Copia a Chave SSH GERADA
+clip < ~/.ssh/id_rsa.pub
