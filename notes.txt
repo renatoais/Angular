@@ -39,3 +39,6 @@ git init
 git remote add origin git@github.com:renatoais/Angular.git
 git push
 git pull
+
+:::Criar Routing Module 
+ng generate module app-routing --flat --module=app

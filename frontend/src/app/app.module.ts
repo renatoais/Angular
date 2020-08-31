@@ -12,7 +12,11 @@ import { NavComponent } from './components/template/nav/nav.component';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatCardModule} from '@angular/material/card';
 import {MatListModule} from '@angular/material/list';
-import { HomeComponent } from './views/home/home.component'; 
+import { HomeComponent } from './views/home/home.component';
+import { ProductCrudComponent } from './views/product-crud/product-crud.component';
+import { AppRoutingModule } from './app-routing.module';
+import { CustomerComponent } from './views/customer/customer.component';
+import { OrderComponent } from './views/order/order.component'; 
 
 
 @NgModule({
@@ -21,7 +25,10 @@ import { HomeComponent } from './views/home/home.component';
     HeaderComponent,
     FooterComponent,
     NavComponent,
-    HomeComponent
+    HomeComponent,
+    ProductCrudComponent,
+    CustomerComponent,
+    OrderComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +36,8 @@ import { HomeComponent } from './views/home/home.component';
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
