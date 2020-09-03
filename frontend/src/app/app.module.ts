@@ -16,7 +16,10 @@ import { HomeComponent } from './views/home/home.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
 import { AppRoutingModule } from './app-routing.module';
 import { CustomerComponent } from './views/customer/customer.component';
-import { OrderComponent } from './views/order/order.component'; 
+import { OrderComponent } from './views/order/order.component';
+import { ProductCreateComponent } from './components/product/product-create/product-create.component'; 
+import { MatButtonModule } from '@angular/material/button';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 
 @NgModule({
@@ -28,7 +31,8 @@ import { OrderComponent } from './views/order/order.component';
     HomeComponent,
     ProductCrudComponent,
     CustomerComponent,
-    OrderComponent
+    OrderComponent,
+    ProductCreateComponent
   ],
   imports: [
     BrowserModule,
@@ -37,7 +41,9 @@ import { OrderComponent } from './views/order/order.component';
     MatSidenavModule,
     MatListModule,
     MatCardModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatButtonModule,
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
