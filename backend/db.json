@@ -14,7 +14,11 @@
       "id": 3,
       "name": "Samsung S20+",
       "price": 5200
+    },
+    {
+      "name": "Tv 59 Samsung",
+      "price": "4999,50",
+      "id": 4
     }
-  
   ]
 }
