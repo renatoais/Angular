@@ -16,6 +16,8 @@ ng new frontend
 
 :::start projeto e compila 
 npm start
+::Subir o server com ip configurado
+ng server --host 192.168.0.105
 
 ::::Separar os arquivos html e css 
 alterar dentro do arquivo angular JS que contem configurações do projeto
@@ -49,3 +51,6 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 Copia a Chave SSH GERADA
 clip < ~/.ssh/id_rsa.pub
+
+:::Cria Componente tabela do Material Desing
+ng generate @angular/material:tabela components/products/read
