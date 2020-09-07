@@ -17,8 +17,18 @@
     },
     {
       "name": "Diorama T-Rex Attack Full Set - Jurassic Park",
-      "price": "13999,50",
+      "price": 13999.5,
       "id": 4
+    },
+    {
+      "id": 5,
+      "name": "Estátua Ezio - Assasins Creed -MiniCo",
+      "price": "142.49"
+    },
+    {
+      "name": "Estátua General Outrider - Avngers: End Game",
+      "price": "469.50",
+      "id": 6
     }
   ]
 }

@@ -7,9 +7,15 @@ table {
 }
 
 .edit > i {
-    color: #d9cd26;
+    color: #1060d8;
 }
 
 .delete > i {
-    color: #e35e6b;
+    color: #ee182d;
+}
+
+.TitleTable{
+    font-size: medium;
+    color: black;
+
 }
