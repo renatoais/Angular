@@ -2,22 +2,22 @@
   "products": [
     {
       "id": 1,
-      "name": "caneta Bic Preta",
-      "price": 5.89
+      "name": "Estátua Spider-Man - Spider-Man: Far From Home",
+      "price": 699
     },
     {
       "id": 2,
-      "name": "Note Book Samsung",
+      "name": "Estátua Nick Fury - Spider-Man: Far From Home",
       "price": 1200
     },
     {
       "id": 3,
-      "name": "Samsung S20+",
-      "price": 5200
+      "name": "Estátua Night Monkey - Spider-Man: Far From Home",
+      "price": 599
     },
     {
-      "name": "Tv 59 Samsung",
-      "price": "4999,50",
+      "name": "Diorama T-Rex Attack Full Set - Jurassic Park",
+      "price": "13999,50",
       "id": 4
     }
   ]
