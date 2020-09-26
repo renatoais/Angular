@@ -54,3 +54,9 @@ clip < ~/.ssh/id_rsa.pub
 
 :::Cria Componente tabela do Material Desing
 ng generate @angular/material:tabela components/products/read
+
+
+git init
+git remote add origin https://github.com/renatoais/BootCamp_IGTI.git
+git branch -M master
+git push -u origin master
